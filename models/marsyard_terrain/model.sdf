@@ -9,7 +9,8 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://marsyard_terrain/meshes/terrain_compressed.obj</uri>
+            <uri>model://marsyard_terrain/meshes/mapa.obj</uri>
+            <scale>0.02 0.02 0.02</scale>
           </mesh>
         </geometry>
       </collision>
@@ -17,7 +18,8 @@
       <visual name="visual">	
         <geometry>
           <mesh>
-            <uri>model://marsyard_terrain/meshes/terrain_compressed.obj</uri>
+            <uri>model://marsyard_terrain/meshes/mapa.obj</uri>
+            <scale>0.02 0.02 0.02</scale>
           </mesh>
         </geometry>
       </visual>
